@@ -6,14 +6,18 @@ int main() {
     int i, len;
 
     printf("Enter a string: ");
-    gets(str);   // For simple programs; avoid in real projects
+    gets(str);  
+    
+    // For simple programs; avoid in real projects
 
     len = strlen(str);
 
     for(i = 0; i < len; i++) {
         rev[i] = str[len - i - 1];
     }
-    rev[i] = '\0'; // Null terminate the reversed string
+    rev[i] = '\0'; 
+    
+    // Null terminate the reversed string
 
     printf("Reversed string: %s\n", rev);
 
