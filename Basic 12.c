@@ -6,7 +6,9 @@ int main() {
     int i, len, flag = 0;
 
     printf("Enter a string: ");
-    gets(str);   // easy for exams, unsafe in real use
+    gets(str);   
+    
+    // easy for exams, unsafe in real use
 
     len = strlen(str);
 
