@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(){
 
     int row,col;
@@ -17,6 +18,7 @@ int main(){
         for(int j=0;j<3;j++){
             printf("%d ",arr2[i][j]);
         }
+        
         printf("\n");
     }
 }
