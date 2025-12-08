@@ -1,4 +1,20 @@
+include <stdio.h>
+void swap(int *a,int *b){
+    int temp=*a;
+    *a=*b;
+    *b=temp;
+}
+int pivot(int arr[],int start,int end){
 
+    int pivot=arr[end];
+    int i=start-1;
+    for(int j=start;j<end;j++){
+        if(arr[j]<pivot){
+            i++;
+            swap(&arr[i],&arr[j]);
+        }
+    }
+}
 
 
 
