@@ -8,7 +8,8 @@ int main(){
     //print the board
     printf("welcome to tic-tac-toe\n");
     while(flag){
-        printf("----------------------\n");
+        
+      printf("----------------------\n");
         for(int i=0;i<3;i++){
             for(int j=0;j<3;j++){
                 printf("| %c |",board[i][j]);
@@ -18,7 +19,8 @@ int main(){
 
         printf("player %c is playing.....\n",currentplayer);
         printf("enter row no:");
-        scanf("%d",&row);
+        
+scanf("%d",&row);
         printf("enter col no:");
         scanf("%d",&col);
 
