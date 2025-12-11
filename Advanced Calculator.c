@@ -5,7 +5,8 @@ int main() {
     int choice;
     float a, b, result;
 
-    do {
+    do 
+    {
         printf("\n===== Advanced Calculator =====\n");
         printf("1. Addition (+)\n");
         printf("2. Subtraction (-)\n");
@@ -18,7 +19,8 @@ int main() {
         printf("Enter your choice: ");
         scanf("%d", &choice);
 
-        switch (choice) {
+        switch (choice) 
+        {
 
             case 1:
                 printf("Enter two numbers: ");
@@ -87,7 +89,8 @@ int main() {
                 printf("Invalid choice! Try again.\n");
         }
 
-    } while (choice != 8);
+    } 
+        while (choice != 8);
 
     return 0;
 }
