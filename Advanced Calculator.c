@@ -68,6 +68,7 @@ int main() {
                 scanf("%f %f", &a, &b);
                 result = pow(a, b);
                 printf("Result = %.2f\n", result);
+                
                 break;
 
             case 7:
@@ -79,10 +80,12 @@ int main() {
                     result = sqrt(a);
                     printf("Result = %.2f\n", result);
                 }
+                
                 break;
 
             case 8:
                 printf("Exiting calculator...\n");
+                
                 break;
 
             default:
