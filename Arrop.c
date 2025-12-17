@@ -19,7 +19,9 @@ int main(){
         printf("5.Exit\n");
         printf("enter your choice:");
         scanf("%d",&choice);
+        
         switch(choice){
+            
             case 1:{
                 printf("Array elements:\n");
                 for(int i=0;i<n;i++){
@@ -28,6 +30,7 @@ int main(){
                 printf("\n");
                 break;
             }
+            
             case 2:{
                 int pos,element;
                 printf("enter a position:");
@@ -42,6 +45,7 @@ int main(){
                 printf("element inserted succesfully.\n");
                 break;
             }
+            
             case 3:{
                 int pos;
                 printf("enter a position:");
@@ -54,6 +58,7 @@ int main(){
                 printf("element deleted succesfully\n");
                 break;
             }
+            
             case 4:{
                 int existing,element;
                 printf("enter existing element:");
@@ -65,6 +70,7 @@ int main(){
                 printf("elemeents updates succesfully!");
                 break;
             }
+            
             case 5:
                 flag=0;
                 printf("Exiting program.\n");
