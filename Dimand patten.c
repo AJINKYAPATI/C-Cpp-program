@@ -2,6 +2,7 @@
 int main(){
 
     for(int i=1;i<=6;i++){
+        
         //for space
         for(int j=5;j>=i;j--){
             printf(" ");
@@ -15,6 +16,7 @@ int main(){
     }
         
     for(int i=5;i>=1;i++){
+        
         //for space
         for(int j=5;j>=i;j--){
             printf(" ");
