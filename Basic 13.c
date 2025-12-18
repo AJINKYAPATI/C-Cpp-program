@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-int main() {
-    char str[100];
+int main() 
+
+{
+    char str[110];
     int i, vowels = 0, consonants = 0;
 
     printf("Enter a string: ");
