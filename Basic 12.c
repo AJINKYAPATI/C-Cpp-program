@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
-    char str[100];
+int main() 
+
+{
+    char str[110];
     int i, len, flag = 0;
 
     printf("Enter a string: ");
