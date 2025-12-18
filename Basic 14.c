@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
-    char str[100];
+int main() 
+
+{
+    char str[110];
     int freq[256] = {0};  // ASCII table size
     int i;
 
