@@ -1,7 +1,10 @@
 #include <stdio.h>
 
-int main() {
-    int n, reversed = 0, remainder;
+int main() 
+{
+    int n, reversed = 0, 
+    
+    remainder;
 
     printf("Enter a number: ");
     scanf("%d", &n);
