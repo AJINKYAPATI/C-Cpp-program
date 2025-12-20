@@ -1,8 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 
-int main() {
-    int num, originalNum, remainder, n = 0;
+int main() 
+
+{
+    int num, 
+    originalNum, 
+    remainder, 
+    n = 0;
     double result = 0.0;
 
     printf("Enter a number: ");
