@@ -1,7 +1,10 @@
 #include <stdio.h>
 
-int main() {
-    int n, i, flag = 1;
+int main() 
+{
+    int n, 
+    i, 
+    flag = 1;
 
     printf("Enter number of elements: ");
     scanf("%d", &n);
