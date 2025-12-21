@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-int main() {
-    int n, i;
+int main() 
+{
+    int n, 
+    i;
     
     printf("Enter n (array will have numbers from 1 to n with one missing): ");
     scanf("%d", &n);
