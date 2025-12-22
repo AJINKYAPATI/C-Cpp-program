@@ -1,7 +1,10 @@
 #include <stdio.h>
 
-int main() {
-    int n, sum = 0, digit;
+int main() 
+{
+    int n, 
+    sum = 0, 
+    digit;
 
     printf("Enter a number: ");
     scanf("%d", &n);
