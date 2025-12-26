@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main(){
+int main()
+{
 
     char ch;
     printf("enter the alphabet: ");
@@ -8,10 +9,12 @@ int main(){
     if(ch >= 'A' && ch <= 'z'){
         if (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'U'){
             printf("uppercase vowel: %c",ch);
-        }else {
+        }
+        else {
         printf("uppercase consonant: %c",ch);
         }
-     } else {
+     } 
+    else {
         printf("the entered character is not an uppercase");
     }
 }
