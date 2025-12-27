@@ -1,8 +1,10 @@
 #include <stdio.h>
 // WAP to find length of given string
-int main() {
+int main() 
+{
     char str[100];
-    int i,length = 0;
+    int i,
+    length = 0;
 
     printf("Enter a string: ");
     gets(str);
@@ -10,6 +12,7 @@ int main() {
     for (i = 0;str[i] !='\0'; i++) {
         length++;
     }
+   
     printf("length of the string is: %d\n", length);
 
     return 0;
