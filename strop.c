@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
-void reverse(char str[],int len) {
+void reverse(char str[],int len) 
+
+{
 
     int start=0,end=len-1;
     while(start<=end){
@@ -17,7 +19,8 @@ void uppercase(char str[],int len) {
 }
 
 
-int main() {
+int main() 
+{
 
         char str[20];
         printf("Enter name:");
