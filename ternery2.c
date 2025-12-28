@@ -2,7 +2,8 @@
 
 int main()
 {
-    int num1,num2;
+    int num1,
+    num2;
 
     printf("enter the first number :");
     scanf("%d",&num1);
