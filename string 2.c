@@ -12,8 +12,6 @@ int main()
     for (i = 0;str[i] !='\0'; i++) {
         length++;
     }
-   
-    printf("length of the string is: %d\n", length);
-
-    return 0;
+   printf("length of the string is: %d\n", length);
+return 0;
 }
