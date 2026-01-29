@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-
 // Function to reverse a string
 void reverse(char str[], int len) {
     int start = 0, end = len - 1;
@@ -11,7 +10,6 @@ void reverse(char str[], int len) {
         str[end--] = temp;
     }
 }
-
 // Function to convert string to uppercase
 void uppercase(char str[], int len) {
     for (int i = 0; i < len; i++) {
@@ -19,7 +17,6 @@ void uppercase(char str[], int len) {
             str[i] = str[i] - 32;
     }
 }
-
 // Function to convert string to lowercase
 void lowercase(char str[], int len) {
     for (int i = 0; i < len; i++) {
@@ -27,7 +24,6 @@ void lowercase(char str[], int len) {
             str[i] = str[i] + 32;
     }
 }
-
 int main() {
     char str[100];
     int flag = 1, ch;
