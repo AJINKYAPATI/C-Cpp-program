@@ -1,23 +1,19 @@
 #include <stdio.h>
 #include <string.h>
 void reverse(char str[],int len) 
-
 {
-
-    int start=0,end=len-1;
+int start=0,end=len-1;
     while(start<=end){
         char temp=str[start];
         str[start++]=str[end];
         str[end--]=temp;
     }
 }
-
 void uppercase(char str[],int len) {
     for(int i=0;i<len;i++) {
         str[i]=str[i]-32;
     }
 }
-
 
 int main() 
 {
