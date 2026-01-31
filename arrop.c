@@ -68,11 +68,9 @@ int main(){
                 flag=0;
                 printf("Exiting program.\n");
                 break;
-            
             default:
                  printf("invalide choice....please re-enter choice...");
         }
     }
-    
-    return 0;
+        return 0;
 }
