@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main()
 {
-    
     int n,i;
     printf("enter a size for array:");
     scanf("%d",&n);
@@ -12,8 +11,7 @@ int main()
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    
-    int max1,max2;
+ int max1,max2;
     
     if(arr[0] > arr[1]) {
         max1 = arr[0];
