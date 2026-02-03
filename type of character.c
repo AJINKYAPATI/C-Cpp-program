@@ -16,6 +16,5 @@ int main(){
           } else {
             printf("character is special symbol, %c", ch);
           }
-
-          return 0;
+     b return 0;
 }
