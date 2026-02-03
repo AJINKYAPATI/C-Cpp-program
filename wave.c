@@ -18,7 +18,6 @@ int main(){
         arr[i]=arr[i+1];
         arr[i+1]=temp1;
     }
-
     printf("sorting: ");
     for(int i=0;i<len;i++){
         printf("%d",arr[i]);
