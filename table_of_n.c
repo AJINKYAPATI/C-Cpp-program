@@ -7,7 +7,6 @@ void table(int n, int i) {
     printf("%d x %d = %d\n", n, i, n * i); // print one line of the table
     table(n, i + 1); // call function again with next number
 }
-
 int main() {
     int n;
     printf("Enter a number: ");
@@ -15,6 +14,5 @@ int main() {
 
     printf("Table of %d:\n", n);
     table(n, 1); // start from 1
-
     return 0;
 }
