@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
     
+    
     int a=2,num,flag=0;
     printf("enter the number");
     scanf("%d",&num);
@@ -11,6 +12,7 @@ int main(){
         }
         a++;
     }
+    
     
     printf(flag?"not prime number" : "prime number");
     
