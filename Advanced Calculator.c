@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
+
+
 int main() {
     int choice;
     float a, b, result;
