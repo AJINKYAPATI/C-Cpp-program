@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+
+
 int main() {
     int n, i;
     long long fact = 1;
